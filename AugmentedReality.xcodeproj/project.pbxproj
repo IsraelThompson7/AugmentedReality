@@ -22,6 +22,7 @@
 		D5214C73177A27B500D79A4C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5214C52177A27B500D79A4C /* UIKit.framework */; };
 		D5214C7B177A27B500D79A4C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5214C79177A27B500D79A4C /* InfoPlist.strings */; };
 		D5214C7D177A27B500D79A4C /* AugmentedRealityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5214C7C177A27B500D79A4C /* AugmentedRealityTests.m */; };
+		D5214C88177A27FB00D79A4C /* HeadsUpDisplay.m in Sources */ = {isa = PBXBuildFile; fileRef = D5214C87177A27FB00D79A4C /* HeadsUpDisplay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		D5214C78177A27B500D79A4C /* AugmentedRealityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AugmentedRealityTests-Info.plist"; sourceTree = "<group>"; };
 		D5214C7A177A27B500D79A4C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D5214C7C177A27B500D79A4C /* AugmentedRealityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AugmentedRealityTests.m; sourceTree = "<group>"; };
+		D5214C86177A27FB00D79A4C /* HeadsUpDisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadsUpDisplay.h; sourceTree = "<group>"; };
+		D5214C87177A27FB00D79A4C /* HeadsUpDisplay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadsUpDisplay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				D5214C63177A27B500D79A4C /* Main_iPad.storyboard */,
 				D5214C66177A27B500D79A4C /* ViewController.h */,
 				D5214C67177A27B500D79A4C /* ViewController.m */,
+				D5214C86177A27FB00D79A4C /* HeadsUpDisplay.h */,
+				D5214C87177A27FB00D79A4C /* HeadsUpDisplay.m */,
 				D5214C69177A27B500D79A4C /* Images.xcassets */,
 				D5214C55177A27B500D79A4C /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 				D5214C68177A27B500D79A4C /* ViewController.m in Sources */,
 				D5214C5F177A27B500D79A4C /* AppDelegate.m in Sources */,
 				D5214C5B177A27B500D79A4C /* main.m in Sources */,
+				D5214C88177A27FB00D79A4C /* HeadsUpDisplay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
